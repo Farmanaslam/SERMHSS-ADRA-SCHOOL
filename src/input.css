@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* BASE */
+
+@layer base {
+    body {
+      @apply bg-[#f5f5f5] text-nutralBlack font-sans;
+    }
+    svg {
+      @apply h-10;
+    }
+    .defaultContainer {
+      @apply p-3 md:p-0 md:w-4/5 mx-auto;
+    }
+  
+    .card {
+      @apply shadow rounded overflow-hidden;
+    }
+  }
+  
+  @layer components {
+    .defaultLabel {
+      @apply bg-deepRed text-white p-2 text-center text-xl;
+    }
+  
+    .defaultSubLabel {
+      @apply text-deepRed text-lg;
+    }
+  
+    .defaultTitle {
+      @apply p-4 bg-[#e1e1e1] text-deepRed text-2xl;
+    }
+  
+    .defaultHeading {
+      @apply text-center bg-[#151515] uppercase;
+    }
+  
+    .defaultHeading span {
+      @apply bg-deepRed text-white p-2;
+    }
+  
+    .primaryBtn {
+      @apply inline-block font-sans bg-softGreen text-white text-xs p-2;
+    }
+  
+    .news-image {
+      height: 300px;
+      float: left;
+      margin-right: 10px;
+    }
+  }
+
+/* EVENTS */
+.inner-heading {
+    @apply w-fit mx-auto text-2xl px-2 border-b-2 border-nutralBlack uppercase border-opacity-30 mb-5;
+  }
+  .events-folder {
+    @apply relative basis-[45%] px-3 pt-3 pb-16 bg-gray-200 cursor-pointer;
+  }
+  
+  .events-folder:hover .events-folder-icon {
+    @apply opacity-100;
+  }
+  
+  .events-folder:hover .events-folder-thumb {
+    @apply brightness-50;
+  }
+  
+  .events-folder-thumb {
+    @apply transition-all;
+  }
+  
+  .events-folder-icon {
+    @apply text-white absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-0 transition-opacity pointer-events-none;
+  }
+  
+  .events-img-div {
+    @apply relative cursor-pointer;
+  }
+  
+  .events-img-div:hover .events-img {
+    @apply brightness-50;
+  }
+  
+  .events-img-div:hover .events-img-icon {
+    @apply opacity-100;
+  }
+  
+  .events-img-icon {
+    @apply text-white absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-0 transition-opacity pointer-events-none;
+  }
+  
+  .events-img-div span {
+    @apply w-full;
+  }
+  
+  .events-img {
+    @apply transition-all;
+  }
+  
+  .view-image img {
+    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[95%] h-[90%] object-contain pointer-events-none;
+  }
+  
+  .fade-in {
+    @apply opacity-100 pointer-events-auto;
+  }
+  
+  .events-video-div {
+    @apply relative;
+  }
+  
+  .events-video {
+  }
+  
+  .events-video-icon {
+    @apply absolute right-3 top-2 text-white;
+  }
+  
+  .crumb-seperator {
+    @apply h-1 w-1 rounded-full bg-blue-500;
+  }

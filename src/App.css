@@ -1,0 +1,189 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.myprimarylightbg{
+  background-color: #122d64;
+  color:white;
+
+}
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.navbar{
+  background-color: #5a8811;
+justify-content: center;
+  padding-bottom: 10px;
+}
+.header1{
+  font-family: "olde_englishregular";
+  font-weight: 500;
+  text-shadow: 1px 3px #373dcc ;
+  font-size: 30px;
+}
+#h2{
+  font-family: 'olde_englishregular';
+  text-align: center;
+ color:#122d64;
+ text-decoration: underline;
+ font-weight: bold;
+ margin-top: 15px;
+ font-size: 25px;
+}
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  display: flex;
+  align-items: center;
+ 
+  background-color: #122d64;
+  color:white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+  
+  
+}
+#text{
+  margin-left: 40px;
+}
+#c{
+  margin-left: 40px;
+  margin-bottom: 25px;
+}
+#c1{
+  margin-bottom: 90px;
+  margin-left: 80px;
+}
+#footp{
+  margin-left: 25px;
+}
+#l{
+  margin-left: 60px;
+}
+.copyright{
+  background-color: #122d64;
+  color:white;
+  text-align: center;
+}
+.fa {
+  
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.fa:hover {
+  opacity: 0.7;
+}
+#p{
+  text-align: center;
+  font-size: large;
+}
+.table{
+  text-align: center;
+  font-size: medium;
+}
+#l1{
+ 
+  margin-bottom: 40px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+
+.list-group-item{
+  cursor: pointer;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #ddd;
+ 
+}
+.foot{
+  margin-top: 10px;
+  background-color: #122d64;
+  color:white;
+}
+.foot h5{
+  font-size: 22px;
+  margin-bottom: 4px
+}
+.foot li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  
+}
+.footerend{
+  background-color: #122d64;
+  text-align: center;
+  color: white;
+  margin-top: 2px;
+}
+.contact{
+align-items: center;
+justify-content:center ;
+}
+.carousel-item>img{
+  height: 60vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width:800px){
+  .row .col-md-1>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  .links{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
